@@ -25,5 +25,13 @@ const signUp = (name : string,age : number ,email : string,paid: boolean) => {
 } 
 userId =  twoNumbers(4)
 
+const s = (isConnected : boolean) => {
+    if (isConnected) {
+        return true
+    }
+    else{
+        return false
+    }
+}
  export {}
 
